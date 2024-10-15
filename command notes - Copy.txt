@@ -224,4 +224,11 @@ VPN (Virtual Private Network): Secure internet connections, useful for working r
 
 personal token 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
 
+Bash: bash is Bourne Again Shell. it is a poular shell and command line interpreter. used to automate tasks
+it is code
+#!/bin/bash
+# This script prints the current date and time
+
+echo "Hello, $(whoami)!"
+echo "Today is: $(date)"
 
