@@ -28,6 +28,7 @@ uses: dig "website.com, you can also add @dns-sever-ip for a specific server,or 
 uses: nslookup "example.com",nslookup "example".com dns-server-ip, and nslookup 8.8.8.8 for reverse lookup
 10.route
 	it is used to display and manipulate and display routing tables
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 uses:route -n shows routing table,sudo route add -net destination-network netmask netmask-address gateway-ip shows"adds routing table
 
 host: The host command is used for DNS lookups. It can be used to find the IP address associated with a domain name or vice versa.
@@ -73,8 +74,7 @@ tcpdump: The tcpdump command is a packet analyzer that allows the user to displa
 
 sudo tcpdump -i eth0
 These commands are valuable for network troubleshooting, diagnostics, and general information retrieval in a Linux environment.
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Alias           ? -> Where-Object                                             
 Alias           % -> ForEach-Object                                           
 Alias           cd -> Set-Location                                            
@@ -183,8 +183,7 @@ Alias           sv -> Set-Variable
 Alias           type -> Get-Content                                           
 Alias           where -> Where-Object                                         
 Alias           wjb -> Wait-Job 
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 IP address (IPv4):
 
 It's like a unique number for your computer on a network, written as sets of numbers (e.g., 192.168.0.1).
@@ -219,11 +218,9 @@ LAN (Local Area Network): Small networks, like in your home or office.
 PAN (Personal Area Network): Personal device connections, like Bluetooth.
 MAN (Metropolitan Area Network): City-wide networks.
 VPN (Virtual Private Network): Secure internet connections, useful for working remotely.
-
-
-
+-------------------------------------------------------------------------------------------------------------------------------
 personal token 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
-
+--------------------------------------------------------------------------------------------------------------------------------
 Bash: bash is Bourne Again Shell. it is a poular shell and command line interpreter. used to automate tasks
 it is code
 #!/bin/bash
@@ -232,6 +229,14 @@ it is code
 echo "Hello, $(whoami)!"
 echo "Today is: $(date)"
 
+<#> is a comment, ignored by the computer
+<echo> displays a message on the screen
+
+variables are the things that store values		age_years and age_days are variables
+if statement
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 top dispalys real time view of the system
@@ -293,3 +298,5 @@ view logs for specif times
 <journalctl --since yesterday --until now>
 		
 <sudo journalctl --vacuum-time=2d> clear the jounal logs, command only shows last 2 days of logs
+
+
