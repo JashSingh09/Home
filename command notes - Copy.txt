@@ -232,3 +232,64 @@ it is code
 echo "Hello, $(whoami)!"
 echo "Today is: $(date)"
 
+
+
+top dispalys real time view of the system
+with 
+PID: Process ID
+USER: User running the process
+%CPU: CPU usage percentage
+%MEM: Memory usage percentage
+TIME+: Total CPU time used
+COMMAND: Name of the command/process
+
+
+HTOP IS but gui need to install wil sudo apt install HTOP
+then HTOP
+
+Interactive UI: Use arrow keys to scroll and navigate.
+Killing Processes: Select a process with arrow keys and press F9 to kill it.
+Sorting: Press F6 to sort by memory, CPU, etc.
+
+
+df is amount of disk space available on mounted file systems
+
+(df -h)
+
+outputs
+Filesystem: Name of the filesystem (e.g., /dev/sda1)
+Size: Total size of the filesystem
+Used: Space used on the filesystem
+Available: Free space remaining
+Use%: Percentage of space used
+Mounted on: Mount point (e.g., / for the root filesystem)
+
+uptime shows how long the systme has been running
+
+14:23:45 up 12 days,  3:12,  2 users,  load average: 0.45, 0.56, 0.47 CAN BE Output
+
+The load average indicates how busy the system is. These numbers show the average number of processes waiting for CPU over the last 1, 5, and 15 minutes. A value above the number of CPU cores indicates the system is overloaded.
+
+top: Real-time process monitoring (basic but powerful).
+htop: Enhanced version of top with a better interface.
+df: Displays disk space usage for mounted filesystems.
+uptime: Shows system uptime and load average.
+
+
+journalctl(SYTEMD logs)
+
+journalctl view all logs,
+(journalctl -b) viwe logs for current booth
+(journalctl -xe) show logs with Errors (troubleshooting)
+
+-x: Provides extra context (if available).
+-e: Opens the logs at the end (most recent entry).
+
+(journalctl -u servicename) logs for specific services( like ssh)
+<journalctl -f> follow logs at the same time, similaar to tail -f
+
+view logs for specif times
+<journalctl --since "2024-10-17 09:00:00">		
+<journalctl --since yesterday --until now>
+		
+<sudo journalctl --vacuum-time=2d> clear the jounal logs, command only shows last 2 days of logs
