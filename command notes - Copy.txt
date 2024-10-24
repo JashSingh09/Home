@@ -317,6 +317,9 @@ stage files
 <bash -[git add .]>
 
 to commit
+<bash - [git commit -m "message"]>
+
+
 
 
 
