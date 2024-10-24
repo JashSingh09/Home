@@ -301,4 +301,26 @@ view logs for specif times
 		
 <sudo journalctl --vacuum-time=2d> clear the jounal logs, command only shows last 2 days of logs
 
+to make a repo
+<bash -[git init]> 
+
+make an account 
+<bash -[git config --global user.name "Your Name"]>
+<bash -[git config --global user.email "youremail@example.com"]>
+
+
+checking status
+<bash - [git status]>
+
+stage files
+<bash - [git add filename]
+<bash -[git add .]>
+
+to commit
+
+
+
+
+
+
 
