@@ -233,9 +233,11 @@ echo "Today is: $(date)"
 <echo> displays a message on the screen
 
 variables are the things that store values		age_years and age_days are variables
-if statement
 
+if statement, if soemthing is true then someting happens or if its false
 
+regex, used to match a pattern, regular Expression
+^[0-9]+$ 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -298,5 +300,27 @@ view logs for specif times
 <journalctl --since yesterday --until now>
 		
 <sudo journalctl --vacuum-time=2d> clear the jounal logs, command only shows last 2 days of logs
+
+to make a repo
+<bash -[git init]> 
+
+make an account 
+<bash -[git config --global user.name "Your Name"]>
+<bash -[git config --global user.email "youremail@example.com"]>
+
+
+checking status
+<bash - [git status]>
+
+stage files
+<bash - [git add filename]
+<bash -[git add .]>
+
+to commit
+
+
+
+
+
 
 
