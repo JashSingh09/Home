@@ -281,7 +281,8 @@ top: Real-time process monitoring (basic but powerful).
 htop: Enhanced version of top with a better interface.
 df: Displays disk space usage for mounted filesystems.
 uptime: Shows system uptime and load average.
-
+------------------------------------------------------------------------------------------------------------------------------------
+System Monitoring
 
 journalctl(SYTEMD logs)
 
@@ -298,6 +299,19 @@ journalctl view all logs,
 view logs for specif times
 <journalctl --since "2024-10-17 09:00:00">		
 <journalctl --since yesterday --until now>
+
+
+------------------------------------------------------------------------------------
+SYSTEM SECURITY
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
 		
 <sudo journalctl --vacuum-time=2d> clear the jounal logs, command only shows last 2 days of logs
 
