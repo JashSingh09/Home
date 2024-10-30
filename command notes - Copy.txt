@@ -335,6 +335,21 @@ to commit
 
 
 
+cd .. changes directory to 1 higher level
+
+
+pwd, is path of working directory
+
+
+ls -a, hidden files
+
+ls -l, full view of files
+
+cd ~
+
+
+man to read any 
+
 
 
 
