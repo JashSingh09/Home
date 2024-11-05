@@ -237,7 +237,7 @@ variables are the things that store values		age_years and age_days are variables
 if statement, if soemthing is true then someting happens or if its false
 
 regex, used to match a pattern, regular Expression
-^[0-9]+$ 
+^[0-9]+$ , idk
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
