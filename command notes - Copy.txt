@@ -350,8 +350,29 @@ cd ~
 
 man to read any 
 
+--------------------------------------------------------------------------------------------------------------
+grep is used to search to serach for text in a documnet
 
 
+
+Option	Description	Example
+-i	Case-insensitive search			grep -i "error" logfile.txt
+-r	Recursive search (searches in all subdirectories)			grep -r "password" /etc/
+-n	Shows line numbers of matching lines			grep -n "failed" logfile.txt
+-c	Counts the number of matching lines			grep -c "user" logfile.txt
+-v	Inverts match (shows lines not containing the pattern)	grep -v "error" logfile.txt
+-w	Matches whole words only				grep -w "root" /etc/passwd
+-l	Lists filenames with matches (doesn’t show matching lines)	grep -l "server" *.log
+-o	Shows only the matching part of the line		grep -o "hello" file.txt
+-E	Enables extended regex (like egrep)			`grep -E "error
+-A [num]	Shows [num] lines after a match	grep -A 3 "error" logfile.txt
+-B [num]	Shows [num] lines before a match	grep -B 2 "error" logfile.txt
+-C [num]	Shows [num] lines before and after a match	grep -C 2 "error" logfile.txt
+
+
+it is easy to find somethings specific and pairs well with the | key,
+
+the | (pipe) is used as 
 
 
 
