@@ -51,6 +51,93 @@ curl or wget: Both curl and wget are used for downloading files from the interne
 
 curl https://example.com/file.txt
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[GameNr "82658147"]
+[TimeControl "10+0"]
+[Variant "FFA"]
+[RuleVariants "Blindfold EnPassant Play4Mate"]
+[StartFen4 "2PC"]
+[White "NotGoodAtGame09"]
+[WhiteElo "1500"]
+[Black "NotTakenUsername2444"]
+[BlackElo "1500"]
+[Result "1-0"]
+[Termination "Checkmate • 1-0"]
+[Site "www.chess.com/variants/blindfold/game/82658147"]
+[Date "Wed May 14 2025 16:32:55 GMT+0000 (Coordinated Universal Time)"]
+[CurrentMove "43"]
+
+1. g5-g7 .. g10-g8
+2. Bf4-i7 .. Ne11-f9
+3. h5-h6 .. h10-h8
+4. g7xh8 .. Nf9-g7
+5. h6xNg7 .. Qg11-h10
+6. Nj4-h5 .. Nj11-i9
+7. Nh5-j6 .. Qh10-g10
+8. h8xNi9 .. j10xi9
+9. Bi4-g6 .. Bi11-f8
+10. g7xBf8 .. Qg10-d7
+11. e5-e6 .. Qd7xBi7
+12. O-O .. Qi7-k9
+13. Qg4-i6 .. O-O
+14. Nj6-k8 .. Qk9xNk8
+15. Qi6xQk8 .. Kj11-j10
+16. Qk8-j7+ .. Kj10-k9
+17. Qj7-i7+ .. Kk9-k8
+18. j5-j7+ .. Kk8-k7
+19. Qi7-j6+ .. Kk7-j8
+20. i5-i7+ .. Kj8-k9
+21. Qj6-k6+ .. Kk9-j10
+22. Qk6xk10+#
+
 wget https://example.com/file.txt
 mtr: The mtr command (My Traceroute) is a network diagnostic tool that combines the functionality of ping and traceroute. It continuously traces the route to a destination and provides statistics on packet loss and latency.
 
