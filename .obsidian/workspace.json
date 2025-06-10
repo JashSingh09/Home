@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ldap Configuration.md",
+                "file": "Reflection on LDAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ldap Configuration"
+              "title": "Reflection on LDAP"
             }
           }
         ]
@@ -170,9 +170,11 @@
   },
   "active": "802d1c968ce1dadb",
   "lastOpenFiles": [
-    "Notes for privacy and security.md",
-    "Ldap Configuration.md",
     "README.md",
+    "LDAP.md",
+    "Reflection on LDAP.md",
+    "Ldap Configuration.md",
+    "Notes for privacy and security.md",
     "command notes - Copy.md",
     "command notes.md"
   ]
