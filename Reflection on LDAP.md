@@ -13,7 +13,7 @@ so i used a script that makes the users with the csv file that was provided, i t
 
 
 ## pros
-easier to scale up to setup multiple users on the server instead of having local users
+easier to scale up to setup multiple users on the server(automate) instead of having local users
 because of central storage,
 
 
