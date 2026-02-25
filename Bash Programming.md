@@ -1,1 +1,6 @@
-functions need something
+
+
+[[functions]] need something or its stupid
+
+
+
