@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Bash Programming/brackets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "brackets"
             }
           },
           {
@@ -55,16 +55,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ldap Configuration.md",
+                "file": "Bash Programming/brackets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ldap Configuration"
+              "title": "brackets"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,14 +211,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "124e0d1825ac4b62",
+  "active": "6516ab0a061a72bc",
   "lastOpenFiles": [
-    "functions.md",
-    "Bash Programming.md",
+    "Untitled.base",
     "README.md",
-    "Ldap Configuration.md",
-    "Notes for privacy and security.md",
+    "Bash Programming/brackets.md",
     "command notes - Copy.md",
-    "command notes.md"
+    "Bash Programming/Bash Programming.md",
+    "Bash Programming/functions.md",
+    "command notes.md",
+    "Bash Programming",
+    "Ldap Configuration.md",
+    "Notes for privacy and security.md"
   ]
 }
